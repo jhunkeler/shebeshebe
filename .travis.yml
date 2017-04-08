@@ -1,4 +1,12 @@
 language: python
+
+sudo: false
+
 python:
   - "3.6"
+
+os:
+  - linux
+  - osx
+
 script: ./corner.py -s 100
