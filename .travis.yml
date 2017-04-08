@@ -1,10 +1,6 @@
-language: python
+language: generic
 
 sudo: false
-
-python:
-  - "2.7"
-  - "3.5"
 
 os:
   - linux
